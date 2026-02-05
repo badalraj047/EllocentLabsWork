@@ -1,0 +1,94 @@
+SECTION - 1
+Instructions:
+Read the question carefully.
+Understand the example before coding.
+Focus on correct logic and output format.
+Use Python to write clean and readable code. (I did this in Java)
+
+Question 1:									(Time: 15 mins)
+Given a list of meeting time intervals, where each interval has a start time and an end time, find the minimum number of meeting rooms required so that no meetings overlap.
+Example
+Input
+[(0, 30), (5, 10), (15, 20)]
+
+Output
+2
+Explanation:
+If two meetings overlap in time, they cannot be held in the same room.
+ You need to count how many rooms are required so that all meetings can happen without conflict.
+
+SECTION - 2
+Instructions:
+Complete the questions using JavaScript only.
+Write clean, readable, and modular code.
+Avoid global variables unless necessary.
+You may use modern ES6+ features.
+Focus on correctness and structure.
+
+
+
+Question 1: Todo Manager (State Management + OOP)                           
+(Time: 40 mins)      
+Create a TodoManager class to manage tasks internally.
+Each task should have: { id, title, completed }
+Requirements:
+Implement the following methods:
+addTask(title) → adds a new task
+
+
+removeTask(id) → deletes task by id
+
+
+toggleComplete(id) → marks complete/incomplete
+
+
+listCompleted() → returns completed tasks
+
+
+listPending() → returns pending tasks
+
+
+Notes:
+IDs must be unique
+Store tasks inside the class (no globals)
+Return updated results where appropriate
+Question 2: Shopping Cart System (Objects + Business Logic)                                                                    (Time: 1 hour)
+Build a simple shopping cart.
+Requirements:
+Implement functions:
+addItem(product, price, quantity)
+
+
+removeItem(product)
+
+
+updateQuantity(product, quantity)
+
+
+getSubtotal()
+
+
+applyDiscount(code)
+
+
+getTotal()
+
+
+Rules:
+Tax = 10%
+
+
+SAVE10 → 10% discount
+
+
+SAVE20 → 20% discount
+
+
+Notes:
+Handle invalid inputs
+
+
+Prevent negative quantities
+
+
+Return the final payable amount.
